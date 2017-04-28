@@ -27,5 +27,10 @@ public class StringReverseTest {
         Assert.assertEquals("tac", stringReverse.reverse("cat"));
     }
 
+    @Test
+    public void reversetest3() throws Exception {
+        Assert.assertNotEquals("cat",stringReverse.reverse("cat"));
+    }
+
 
 }
